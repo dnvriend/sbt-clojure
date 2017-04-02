@@ -1,19 +1,14 @@
-*.class
-*.log
-
-# sbt specific
-dist/*
-target/
-lib_managed/
-src_managed/
-project/boot/
-project/plugins/project/
-
-# Scala-IDE specific
-.scala_dependencies
-
-.cache
-
-.classpath
-
-.project
+/RUNNING_PID
+/logs/
+/project/*-shim.sbt
+/project/project/
+/project/target/
+/target/
+/.idea/
+/.vscode/
+*.iml
+*.hi
+*.o
+writefile
+writefile.txt
+/frege/
