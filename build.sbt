@@ -4,9 +4,9 @@ name := "sbt-clojure"
 
 organization := "com.unhandledexpression"
 
-version := "0.1"
+version := "0.2-SNAPSHOT"
 
-scalaVersion := "2.10.2"
+scalaVersion := "2.10.6"
 
 publishMavenStyle := true
 
@@ -18,7 +18,7 @@ publishTo := {
     Some("releases"  at nexus + "service/local/staging/deploy/maven2")
 }
 
-libraryDependencies += "org.clojure" % "clojure" % "1.5.1"
+libraryDependencies += "org.clojure" % "clojure" % "1.8.0"
 
 publishArtifact in Test := false
 

@@ -8,7 +8,7 @@ object ClojurePlugin extends Plugin {
 
   private object ClojureDefaults extends Keys {
     val settings = Seq(
-      clojureVersion := "1.5.1",
+      clojureVersion := "1.8.0",
       libraryDependencies ++= Seq[ModuleID](
         "org.clojure" % "clojure" % clojureVersion.value % Config.name
       )
